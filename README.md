@@ -15,12 +15,22 @@ This repository contains the complete ecosystem for the Voice Vitals project:
 
 To test or integrate the module, you'll primarily want to look at the [voice_vitals module instructions](voice_vitals/README.md).
 
-If you want to run the project locally on your device or emulator:
-1. Open the `demo_app` directory in your IDE.
-2. Ensure you have a working device/emulator selected.
-3. Run the project (`F5` in VS Code). 
+### Testing the Voice Model in Chrome (Web)
+The easiest way for the team to activate and test the speech-to-text NLP model is by running the `demo_app` via the Flutter dev server:
 
-> **Note**: For web testing, a local python server script (`nocache_server.py`) is provided in `demo_app` to bypass strict browser caching constraints during development.
+1. Open your terminal and navigate to the `demo_app` directory.
+2. Launch the application using the local web server:
+   ```bash
+   flutter run -d web-server --web-port=8686
+   ```
+3. Once the terminal indicates it is serving, open **Chrome** (or Edge) and navigate to `http://localhost:8686`.
+4. Click the Microphone icon, allow access, and dictate your patient vitals (e.g., "BP 130 over 80, heart rate 72, SP 98, respiration 18"). The engine will automatically parse and log the structured data.
+
+### Running natively (Mobile / Desktop)
+If you prefer to run the project locally on your physical device or emulator:
+1. Open the `demo_app` directory in your IDE.
+2. Select your device/emulator.
+3. Run the project (`F5` in VS Code).
 
 ## Tech Stack
 - **Flutter** & **Dart**

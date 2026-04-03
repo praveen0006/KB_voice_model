@@ -368,6 +368,15 @@ void main() {
       expect(result.spo2, 93);
       expect(result.respirationRate, 26);
     });
+    test('parses BP when STT misinterprets 80 as "it" and SpO2 as "SP vote"', () {
+      final result =
+          parser.parse('BP 125 it hard drive 72 SP vote 93 respiration 23');
+      expect(result.systolic, 125);
+      expect(result.diastolic, 80);
+      expect(result.heartRate, 72);
+      expect(result.spo2, 93);
+      expect(result.respirationRate, 23);
+    });
   });
 
   group('Partial inputs', () {

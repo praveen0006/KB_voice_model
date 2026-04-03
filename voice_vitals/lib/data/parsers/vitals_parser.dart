@@ -156,6 +156,14 @@ class VitalsParser {
       (m) => '${int.parse(m.group(1)!) * 10} over ${int.parse(m.group(2)!) * 10}',
     );
 
+    // Chrome STT often hears "80" as "it" right after a systolic number.
+    // E.g., "BP 125 it" -> "bp 125 80"
+    result = result.replaceAllMapped(
+      RegExp(r'(\d{2,3})\s+it\b'),
+      (m) => '${m.group(1)} 80',
+    );
+
+
     // ===== SpO2 speech artifacts =====
     // Chrome Web Speech API commonly returns: "SP auto", "SPO to", "spo 2", etc.
     result = result.replaceAllMapped(
@@ -179,6 +187,7 @@ class VitalsParser {
         r'|spot\s*2'          // "spot2"
         r'|spot\b'            // "spot 96"
         r'|sp\s*road'         // "sp road"
+        r'|sp\s*vote'         // "sp vote"
         ,
         caseSensitive: false,
       ),
