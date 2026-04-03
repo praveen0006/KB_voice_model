@@ -1,0 +1,8 @@
+00:00 +0: loading C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/chrome_output_test.dart
+00:00 +0: Chrome: "Espio 76 respiration 33Hard red 96 BP 120 by 70."
+Test 1: BP=120/70 HR=96 SpO2=76 RR=33
+00:00 +1: Chrome: "Heart rate 97 spo2 76Baby 97 by 83Desperation 36"
+Test 2: BP=97/83 HR=97 SpO2=76 RR=36
+00:00 +2: Chrome: "baby 127 by 36 spo2 93 respiration 31 heart rate 73"
+Test 3: BP=127/36 HR=73 SpO2=93 RR=31
+00:00 +3: All tests passed!

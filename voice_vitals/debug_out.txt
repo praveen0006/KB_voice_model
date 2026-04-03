@@ -1,0 +1,74 @@
+00:00 +0: loading C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/parser_debug_test.dart
+00:00 +0: Real-world: "BP 120 over 80"
+INPUT:  "BP 120 over 80"
+RESULT: BP=120/80 HR=null Temp=null SpO2=null RR=null
+---
+00:00 +1: Real-world: "blood pressure is 120 over 80"
+INPUT:  "blood pressure is 120 over 80"
+RESULT: BP=120/80 HR=null Temp=null SpO2=null RR=null
+---
+00:00 +2: Real-world: "120 by 80 BP"
+INPUT:  "120 by 80 BP"
+RESULT: BP=120/80 HR=null Temp=null SpO2=null RR=null
+---
+00:00 +3: Real-world: "120 on 80"
+INPUT:  "120 on 80"
+RESULT: BP=120/80 HR=null Temp=null SpO2=null RR=null
+---
+00:00 +4: Real-world: "heart rate 78"
+INPUT:  "heart rate 78"
+RESULT: BP=null/null HR=78 Temp=null SpO2=null RR=null
+---
+00:00 +5: Real-world: "heart rate is 72"
+INPUT:  "heart rate is 72"
+RESULT: BP=null/null HR=72 Temp=null SpO2=null RR=null
+---
+00:00 +6: Real-world: "pulse 65"
+INPUT:  "pulse 65"
+RESULT: BP=null/null HR=65 Temp=null SpO2=null RR=null
+---
+00:00 +7: Real-world: "SP auto 98"
+INPUT:  "SP auto 98"
+RESULT: BP=null/null HR=null Temp=null SpO2=98 RR=null
+---
+00:00 +8: Real-world: "oxygen 97"
+INPUT:  "oxygen 97"
+RESULT: BP=null/null HR=null Temp=null SpO2=97 RR=null
+---
+00:00 +9: Real-world: "oxygen saturation 98"
+INPUT:  "oxygen saturation 98"
+RESULT: BP=null/null HR=null Temp=null SpO2=98 RR=null
+---
+00:00 +10: Real-world: "spo2 98"
+INPUT:  "spo2 98"
+RESULT: BP=null/null HR=null Temp=null SpO2=98 RR=null
+---
+00:00 +11: Real-world: "respiration 18"
+INPUT:  "respiration 18"
+RESULT: BP=null/null HR=null Temp=null SpO2=null RR=18
+---
+00:00 +12: Real-world: "respiration rate 16"
+INPUT:  "respiration rate 16"
+RESULT: BP=null/null HR=null Temp=null SpO2=null RR=16
+---
+00:00 +13: Real-world: "temperature 98.6"
+INPUT:  "temperature 98.6"
+RESULT: BP=null/null HR=null Temp=98.6 SpO2=null RR=null
+---
+00:00 +14: Real-world: "120 by 80 BP respiration 73 heart rate 66 SP auto 73"
+INPUT:  "120 by 80 BP respiration 73 heart rate 66 SP auto 73"
+RESULT: BP=120/80 HR=66 Temp=null SpO2=73 RR=73
+---
+00:00 +15: Real-world: "BP 120 over 80 heart rate 72 oxygen 98 respiration 18"
+INPUT:  "BP 120 over 80 heart rate 72 oxygen 98 respiration 18"
+RESULT: BP=120/80 HR=72 Temp=null SpO2=98 RR=18
+---
+00:00 +16: Real-world: "bp is 120 over 80 heart rate is 78 oxygen is 98 respiration is 18"
+INPUT:  "bp is 120 over 80 heart rate is 78 oxygen is 98 respiration is 18"
+RESULT: BP=120/80 HR=78 Temp=null SpO2=98 RR=18
+---
+00:00 +17: Real-world: "blood pressure 130 over 85 pulse 72 saturation 97 respiration 16"
+INPUT:  "blood pressure 130 over 85 pulse 72 saturation 97 respiration 16"
+RESULT: BP=130/85 HR=72 Temp=null SpO2=97 RR=16
+---
+00:00 +18: All tests passed!

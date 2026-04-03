@@ -1,0 +1,14 @@
+00:00 +0: loading C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/chrome_output_test.dart
+00:00 +0: Exact Chrome debug panel output: "Espio 76 respiration 33Hard red 96 BP 120 by 70."
+INPUT:  "Espio 76 respiration 33Hard red 96 BP 120 by 70."
+
+RESULTS:
+  BP:   120/70
+  HR:   96
+  Temp: null
+  SpO2: 76
+  RR:   33
+00:00 +1: Previous audio: "baby 127 by 36 spo2 93 respiration 31 heart rate 73 BPM 76"
+INPUT:  "baby 127 by 36 spo2 93 respiration 31 heart rate 73 BPM 76"
+RESULTS: BP=127/36 HR=73 SpO2=93 RR=31
+00:00 +2: All tests passed!

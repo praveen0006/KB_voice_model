@@ -1,0 +1,21 @@
+name: voice_vitals
+description: Voice-Based Vitals Entry feature module. Captures patient vitals via speech, parses into structured data, validates, and stores locally.
+version: 1.0.0
+
+environment:
+  sdk: ^3.11.4
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  speech_to_text: ^7.0.0
+  flutter_riverpod: ^2.4.0
+  path_provider: ^2.1.0
+  intl: ^0.19.0
+  csv: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0

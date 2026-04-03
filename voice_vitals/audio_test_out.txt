@@ -1,0 +1,12 @@
+00:00 +0: loading C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/audio_test.dart
+00:00 +0: Exact audio transcription test
+INPUT: "baby 127 by 36 spo2 93 respiration 31 heart rate 73 BPM 76 heart rate 96 spo2 99 respiration 33"
+
+RESULTS:
+  BP:   127/36
+  HR:   73
+  Temp: null
+  SpO2: 93
+  RR:   31
+  hasAnyData: true
+00:00 +1: All tests passed!

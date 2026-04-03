@@ -1,0 +1,11 @@
+{
+  "raw_transcript": "baby 127 by 36 spo2 93 respiration 31 heart rate 73 BPM 76 heart rate 96 spo2 99 respiration 33",
+  "preprocessed": "bp 127 over 36 spo2 93 respiration 31 heart rate 73 bpm 76 heart rate 96 spo2 99 respiration 33",
+  "vitals": {
+    "bp": "127/36",
+    "hr": "73",
+    "spo2": "93",
+    "rr": "31",
+    "temp": null
+  }
+}

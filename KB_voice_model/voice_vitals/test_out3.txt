@@ -1,0 +1,89 @@
+00:00 +0: loading C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/number_normalizer_test.dart
+00:00 +0: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/number_normalizer_test.dart: NumberNormalizer.normalizeInText converts single digit words
+00:00 +1: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/number_normalizer_test.dart: NumberNormalizer.normalizeInText converts teens
+00:00 +2: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/number_normalizer_test.dart: NumberNormalizer.normalizeInText converts tens
+00:00 +3: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/number_normalizer_test.dart: NumberNormalizer.normalizeInText converts compound: seventy eight → 78
+00:00 +4: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/number_normalizer_test.dart: NumberNormalizer.normalizeInText converts compound: forty two → 42
+00:00 +5: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/number_normalizer_test.dart: NumberNormalizer.normalizeInText converts shorthand: one twenty → 120
+00:00 +6: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/number_normalizer_test.dart: NumberNormalizer.normalizeInText converts shorthand: one forty → 140
+00:00 +7: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/number_normalizer_test.dart: NumberNormalizer.normalizeInText converts: one hundred twenty → 120
+00:00 +8: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/number_normalizer_test.dart: NumberNormalizer.normalizeInText converts: one hundred and twenty → 120
+00:00 +9: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/number_normalizer_test.dart: NumberNormalizer.normalizeInText converts: ninety eight point six → 98.6
+00:00 +10: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/number_normalizer_test.dart: NumberNormalizer.normalizeInText preserves non-number words
+00:00 +11: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/number_normalizer_test.dart: NumberNormalizer.normalizeInText handles multiple number sequences
+00:00 +12: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/number_normalizer_test.dart: NumberNormalizer.normalizeInText handles BP with word numbers in context
+00:00 +13: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/number_normalizer_test.dart: NumberNormalizer.normalizeInText handles already-digit text
+00:00 +14: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/number_normalizer_test.dart: NumberNormalizer.normalizeInText handles empty string
+00:00 +15: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/number_normalizer_test.dart: NumberNormalizer.normalizeInText handles mixed words and digits
+00:00 +16: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: Blood Pressure parsing parses slash format: 120/80
+00:00 +17: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: Blood Pressure parsing parses "over" format: 120 over 80
+00:00 +18: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: Blood Pressure parsing parses with BP prefix: bp 120 over 80
+00:00 +19: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: Blood Pressure parsing parses "blood pressure" prefix
+00:00 +20: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: Blood Pressure parsing parses "by" format: 120 by 80
+00:00 +21: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: Blood Pressure parsing parses concatenated "12080" as 120/80
+00:00 +22: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: Blood Pressure parsing parses concatenated "13085" as 130/85
+00:00 +23: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: Blood Pressure parsing parses concatenated "9060" as 90/60
+00:00 +24: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: Blood Pressure parsing parses "bp X Y" two separate numbers
+00:00 +25: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: Heart Rate parsing parses "heart rate 78"
+00:00 +26: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: Heart Rate parsing parses "HR 78"
+00:00 +27: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: Heart Rate parsing parses "pulse 65"
+00:00 +28: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: Heart Rate parsing parses "heartrate 72" (no space)
+00:00 +29: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: Temperature parsing parses "temperature 98.6"
+00:00 +30: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: Temperature parsing parses "temp 99.1"
+00:00 +31: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: Temperature parsing parses integer temperature
+00:00 +32: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: SpO2 parsing parses "spo2 98"
+00:00 +33: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: SpO2 parsing parses "oxygen saturation 97"
+00:00 +34: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: SpO2 parsing parses "oxygen 95"
+00:00 +35: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: SpO2 parsing parses "o2 sat 99"
+00:00 +36: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: SpO2 parsing parses "saturation 96"
+00:00 +37: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: SpO2 parsing handles speech artifact "spo 2 98" → spo2 98
+00:00 +38: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: SpO2 parsing handles "sp o 2 97"
+00:00 +39: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: Respiration Rate parsing parses "respiration 18"
+00:00 +40: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: Respiration Rate parsing parses "respiration rate 16"
+00:00 +41: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: Respiration Rate parsing parses "respiratory rate 20"
+00:00 +42: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: Respiration Rate parsing parses "rr 14"
+00:00 +43: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: Respiration Rate parsing parses "breathing rate 22"
+00:00 +44: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: Respiration Rate parsing parses "breaths per minute 18"
+00:00 +45: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: Multiple vitals in one sentence parses BP + HR
+00:00 +46: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: Multiple vitals in one sentence parses all 5 vitals
+00:00 +47: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: Multiple vitals in one sentence parses comma-separated
+00:00 +48: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: Partial inputs only heart rate
+00:00 +49: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: Partial inputs only SpO2
+00:00 +50: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: Partial inputs only respiration
+00:00 +51: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: Edge cases no vitals found returns hasAnyData=false
+00:00 +52: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: Edge cases empty string
+00:00 +53: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: Edge cases noisy text with BP buried
+00:00 +54: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_parser_test.dart: Edge cases concatenated BP without prefix
+00:00 +55: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_validator_test.dart: Systolic validation valid systolic passes
+00:00 +56: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_validator_test.dart: Systolic validation systolic too low fails
+00:00 +57: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_validator_test.dart: Systolic validation systolic too high fails
+00:00 +58: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_validator_test.dart: Systolic validation systolic at min boundary passes
+00:00 +59: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_validator_test.dart: Systolic validation systolic at max boundary passes
+00:00 +60: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_validator_test.dart: Diastolic validation valid diastolic passes
+00:00 +61: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_validator_test.dart: Diastolic validation diastolic too low fails
+00:00 +62: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_validator_test.dart: Diastolic validation diastolic too high fails
+00:00 +63: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_validator_test.dart: Heart Rate validation valid heart rate passes
+00:00 +64: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_validator_test.dart: Heart Rate validation heart rate too low fails
+00:00 +65: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_validator_test.dart: Heart Rate validation heart rate too high fails
+00:00 +66: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_validator_test.dart: Heart Rate validation heart rate at min boundary passes
+00:00 +67: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_validator_test.dart: Heart Rate validation heart rate at max boundary passes
+00:00 +68: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_validator_test.dart: Temperature validation valid temperature passes
+00:00 +69: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_validator_test.dart: Temperature validation temperature too low fails
+00:00 +70: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_validator_test.dart: Temperature validation temperature too high fails
+00:00 +71: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_validator_test.dart: Temperature validation temperature at min boundary passes
+00:00 +72: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_validator_test.dart: Temperature validation temperature at max boundary passes
+00:00 +73: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_validator_test.dart: SpO2 validation valid spo2 passes
+00:00 +74: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_validator_test.dart: SpO2 validation spo2 too low fails
+00:00 +75: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_validator_test.dart: SpO2 validation spo2 too high fails
+00:00 +76: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_validator_test.dart: SpO2 validation spo2 at min boundary passes
+00:00 +77: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_validator_test.dart: SpO2 validation spo2 at max boundary (100) passes
+00:00 +78: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_validator_test.dart: Respiration Rate validation valid respiration rate passes
+00:00 +79: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_validator_test.dart: Respiration Rate validation respiration rate too low fails
+00:00 +80: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_validator_test.dart: Respiration Rate validation respiration rate too high fails
+00:00 +81: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_validator_test.dart: Respiration Rate validation respiration rate at min boundary passes
+00:00 +82: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_validator_test.dart: Respiration Rate validation respiration rate at max boundary passes
+00:00 +83: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_validator_test.dart: Combined validation all valid values pass
+00:00 +84: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_validator_test.dart: Combined validation one invalid fails overall
+00:00 +85: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_validator_test.dart: Combined validation null values are not validated
+00:00 +86: C:/Users/Akula/Downloads/Kb_voice_model/voice_vitals/test/vitals_validator_test.dart: Combined validation multiple invalid fields caught
+00:00 +87: All tests passed!
