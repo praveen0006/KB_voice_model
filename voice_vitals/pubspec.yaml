@@ -3,17 +3,17 @@ description: Voice-Based Vitals Entry feature module. Captures patient vitals vi
 version: 1.0.0
 
 environment:
-  sdk: ^3.11.4
-  flutter: '>=3.10.0'
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  speech_to_text: ^7.0.0
-  flutter_riverpod: ^2.4.0
-  path_provider: ^2.1.0
-  intl: ^0.19.0
-  csv: ^6.0.0
+  speech_to_text: '>=6.0.0 <8.0.0'
+  flutter_riverpod: '>=2.0.0 <3.0.0'
+  path_provider: '>=2.0.0 <3.0.0'
+  intl: '>=0.17.0 <1.0.0'
+  csv: '>=5.0.0 <7.0.0'
 
 dev_dependencies:
   flutter_test:
